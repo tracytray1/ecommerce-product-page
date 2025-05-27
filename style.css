@@ -3,6 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -29,7 +30,6 @@ nav {
 }
 
 .categories-list {
-  font-family: Arial, Helvetica, sans-serif;
   list-style: none;
   display: flex;
   gap: 30px;
@@ -84,4 +84,56 @@ nav {
 
 .profile img {
   height: 50px;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #ccc;
+}
+
+.product-description {
+  color: #ccc;
+}
+
+.card {
+  display: flex;
+  gap: 20px;
+}
+
+.promotion {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  width: max-content;
+  padding: 5px 10px
+}
+
+.current-price, .product-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.product-quantity {
+  display: flex;
+  width: max-content;
+  padding: 10px 30px;
+  background-color: rgb(225, 225, 225);
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.add-to-cart {
+  display: flex;
+  background-color: #ff7e1b;
+  width: max-content;
+  border-radius: 5px;
+  padding: 10px 30px;
+  gap: 15px;
+  align-items: center;
+}
+
+.product-actions img {
+  height: 20px;
+  width: 20px;
 }
